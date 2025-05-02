@@ -1,0 +1,14 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+This project contains standalone demos for a Golang course. 
+
+Each folder demos a different concept. Each folder should have its own main.go executable.
+
+Examples should be succinct and minimal, the output should be to stdout unless otherwise stated.
+
+Don't add comments to the code.
+
+Avoid using time.Sleep
