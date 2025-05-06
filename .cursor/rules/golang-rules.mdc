@@ -1,0 +1,23 @@
+---
+description: 
+globs: *.go
+alwaysApply: false
+---
+When writing or editing Golang, you must follow these style rules.
+
+## Use modern loops
+Do not write
+```go
+for i := 0; i < num; i++ {
+		...
+}
+```
+Instead write
+```go
+for range num {
+    ...
+}
+```
+
+## Do not initialise rand
+There is no need to call rand.Seed
